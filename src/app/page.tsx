@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Home from "./Home";
+import Home from "../components/screens/Home/Home";
 
 export default function PageHome() {
   return (
