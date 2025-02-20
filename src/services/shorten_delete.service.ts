@@ -1,6 +1,5 @@
 import { create } from "zustand";
 import { axiosClassic } from "@/api/interceptors";
-import { IStateBase } from "@/types/root.types";
 import { IShortenDeleteState, IShortenDeleteStore } from "@/types/shorten_delete.types";
 
 const initialState: IShortenDeleteState = {

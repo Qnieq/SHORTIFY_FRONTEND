@@ -15,8 +15,10 @@ export const Heading = forwardRef<HTMLHeadingElement, IHeading>(
                 style={{
                     color: color,
                     fontSize: "clamp(2rem, 6vw, 6rem)",
+                    fontWeight: weight,
+                    textAlign: align
                 }}
-                className={`font-poppins font-${weight} text-${align}`}
+                className={`font-poppins`}
             >
                 {text}
             </h1>

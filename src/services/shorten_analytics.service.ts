@@ -6,7 +6,7 @@ const initialState: IShortenAnalyticsState = {
     loading: false,
     success: false,
     error: false,
-    analytics: null,
+    analytics: {} as IAnalytics,
     dataError: null,
 };
 

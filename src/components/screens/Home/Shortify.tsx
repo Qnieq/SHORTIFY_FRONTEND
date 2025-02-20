@@ -40,6 +40,7 @@ export function Shortify() {
                 <button onClick={copyLink} className='w-[320px] flex flex-col items-center cursor-pointer'>
                     Short URL (click to copy):
                     <input
+                        id="shortUrl"
                         ref={clipboard.target}
                         value={`http://localhost:3005/shorten/${shorten.shortUrl}`}
                         className="text-blue-500 underline w-full bg-transparent border-none outline-none pointer-events-none" readOnly
